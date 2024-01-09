@@ -1,0 +1,62 @@
+<!-- signing-form.component.html -->
+
+<div class="container">
+    <form (ngSubmit)="onSubmit()" #signUpForm="ngForm">
+        <h1 class="word">WHO Quality of Life</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" [(ngModel)]="formData.name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" [(ngModel)]="formData.age" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" [(ngModel)]="formData.gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+        <label for="profession">Profession:</label>
+        <select id="profession" name="profession" [(ngModel)]="formData.profession" required>
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+        </select>
+
+        <button type="submit" [disabled]="signUpForm.invalid">Submit</button>
+
+        <div calss="new" *ngIf="submitted">
+            <button class="next" type="submit" (click)="showNextForm()">Next</button>
+        </div>
+    </form>
+
+    <div *ngIf="submitted">
+        <!-- Display the next form or content here -->
+        <!-- You can include another component, form, or content as needed -->
+        <div class="form-data-container">
+            <h2>Details</h2>
+            <table>
+                <tr>
+                    <th>Field </th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>{{ formData.name }}</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>{{ formData.age }}</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>{{ formData.gender }}</td>
+                </tr>
+                <tr>
+                    <td>Profession</td>
+                    <td>{{ formData.profession }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>

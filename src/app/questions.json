@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1,
+    "question": "How would you rate your quality of life?",
+    "options": [
+      {"label": "Very poor", "value": 1},
+      {"label": "Poor", "value": 2},
+      {"label": "Neither poor nor good", "value": 3},
+      {"label": "Good", "value": 4},
+      {"label": "Very Good", "value": 5}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "How satisfied are you with your health?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 3,
+    "question": "To what extent do you feel that physical pain prevents you from doing what you need to do?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "A moderate amount", "value": 3},
+      {"label": "Very much", "value": 4},
+      {"label": "An extreme amount", "value": 5}
+    ]
+  },
+  {
+    "id": 4,
+    "question": "How much do you need any medical treatment to function in your life?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "A moderate amount", "value": 3},
+      {"label": "Very much", "value": 4},
+      {"label": "An extreme amount", "value": 5}
+    ]
+  },
+  {
+    "id": 5,
+    "question": "How much do you enjoy life?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "A moderate amount", "value": 3},
+      {"label": "Very much", "value": 4},
+      {"label": "An extreme amount", "value": 5}
+    ]
+  },
+  {
+    "id": 6,
+    "question": "To what extent do you feel your life to be meaningful?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "A moderate amount", "value": 3},
+      {"label": "Very much", "value": 4},
+      {"label": "An extreme amount", "value": 5}
+    ]
+  },
+  {
+    "id": 7,
+    "question": "How well are you able to concentrate?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "A moderate amount", "value": 3},
+      {"label": "Very much", "value": 4},
+      {"label": "An extreme amount", "value": 5}
+    ]
+  },
+  {
+    "id": 8,
+    "question": "How safe do you feel in your daily life?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "Slightly", "value": 2},
+      {"label": "A moderate amount", "value": 3},
+      {"label": "Very much", "value": 4},
+      {"label": "Extremely", "value": 5}
+    ]
+  },
+  {
+    "id": 9,
+    "question": "How healthy is your physical environment?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "Slightly", "value": 2},
+      {"label": "A moderate amount", "value": 3},
+      {"label": "Very much", "value": 4},
+      {"label": "Extremely", "value": 5}
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Do you have enough energy for everyday life?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "Moderately", "value": 3},
+      {"label": "Mostly", "value": 4},
+      {"label": "Completely", "value": 5}
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Are you able to accept your bodily appearance?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "Moderately", "value": 3},
+      {"label": "Mostly", "value": 4},
+      {"label": "Completely", "value": 5}
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Have you enough money to meet your needs?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "Moderately", "value": 3},
+      {"label": "Mostly", "value": 4},
+      {"label": "Completely", "value": 5}
+    ]
+  },
+  {
+    "id": 13,
+    "question": "How available to you is the information that you need in your day-to-day life?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "Moderately", "value": 3},
+      {"label": "Mostly", "value": 4},
+      {"label": "Completely", "value": 5}
+    ]
+  },
+  {
+    "id": 14,
+    "question": "To what extent do you have the opportunity for leisure activities?",
+    "options": [
+      {"label": "Not at all", "value": 1},
+      {"label": "A little", "value": 2},
+      {"label": "Moderately", "value": 3},
+      {"label": "Mostly", "value": 4},
+      {"label": "Completely", "value": 5}
+    ]
+  },
+  {
+    "id": 15,
+    "question": "How well are you able to get around?",
+    "options": [
+      {"label": "Very poor", "value": 1},
+      {"label": "Poor", "value": 2},
+      {"label": "Neither poor nor well", "value": 3},
+      {"label": "Well", "value": 4},
+      {"label": "Very well", "value": 5}
+    ]
+  },
+  {
+    "id": 16,
+    "question": "How satisfied are you with your sleep?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 17,
+    "question": "How satisfied are you with your ability to perform your daily living activities?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 18,
+    "question": "How satisfied are you with your capacity for work?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 19,
+    "question": "How satisfied are you with yourself?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 20,
+    "question": "How satisfied are you with your personal relationships?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 21,
+    "question": "How satisfied are you with your sex life?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 22,
+    "question": "How satisfied are you with the support you get from your friends?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 23,
+    "question": "How satisfied are you with the conditions of your living place?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 24,
+    "question": "How satisfied are you with your access to health services?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 25,
+    "question": "How satisfied are you with your mode of transportation?",
+    "options": [
+      {"label": "Very dissatisfied", "value": 1},
+      {"label": "Dissatisfied", "value": 2},
+      {"label": "Neither satisfied nor dissatisfied", "value": 3},
+      {"label": "Satisfied", "value": 4},
+      {"label": "Very satisfied", "value": 5}
+    ]
+  },
+  {
+    "id": 26,
+    "question": "How often do you have negative feelings, such as blue mood, despair, anxiety, depression?",
+    "options": [
+      {"label": "Never", "value": 1},
+      {"label": "Seldom", "value": 2},
+      {"label": "Quite often", "value": 3},
+      {"label": "Very often", "value": 4},
+      {"label": "Always", "value": 5}
+    ]
+  }
+]

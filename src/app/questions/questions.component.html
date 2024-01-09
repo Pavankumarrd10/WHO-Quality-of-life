@@ -1,0 +1,26 @@
+<!-- questions.component.html -->
+
+<div class="question-container" *ngIf="!panelsts">
+  <h2>Question {{ currentIndex + 1 }}</h2>
+  <p>{{ currentQuestion }}</p>
+  
+  <div class="options">
+    <label *ngFor="let option of allQuestions[currentIndex].options; let i = index">
+      <input type="radio" name="question{{ currentIndex }}" [value]="i" (change)="selectOption(currentIndex, i)">
+      {{ option.label }}
+    </label>
+  </div>
+
+  <div class="navigation-buttons">
+    <button (click)="prevQuestion()" [disabled]="counter === 0">Previous</button>
+    <button (click)="nextQuestion()" [disabled]="counter === allQuestions.length - 1">Next</button>
+  </div>
+
+  <button (click)="finish()" *ngIf="counter === allQuestions.length - 1">Finish</button>
+</div>
+
+<div class="result-container" *ngIf="panelsts">
+  <h2>attempeted</h2>
+  <p>You attempted {{ counter + 1 }} out of {{ allQuestions.length }} questions.</p>
+   <!-- You can display more details or provide additional actions here -->
+</div>

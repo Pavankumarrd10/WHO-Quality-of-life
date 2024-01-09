@@ -1,0 +1,44 @@
+ .class{
+    align-items: right;
+
+
+    
+ }
+
+ 
+ 
+
+ img.well {
+   display: block;
+   margin: 0 auto;
+ }
+ body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h4 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Add additional styling as needed */
+  
